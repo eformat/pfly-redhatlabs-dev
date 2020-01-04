@@ -49,3 +49,6 @@ oc start-build pfly --from-dir=. --follow
 oc new-app pfly
 oc expose svc pfly
 ```
+
+
+export dns_domain="redhatlabs.dev"
